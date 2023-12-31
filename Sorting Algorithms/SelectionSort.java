@@ -1,4 +1,4 @@
-public class BubbleSort
+public class SelectionSort
 {
 	void print_array(int a[]) 
 	{
