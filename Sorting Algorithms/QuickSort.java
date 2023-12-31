@@ -37,7 +37,7 @@ public static void main(String args[])
 		int a[] = { 66, 11, 33, 99, 88, 22, 44, 55, 77 };
 		SortingAlgo obj = new SortingAlgo();
 		obj.print_array(a);
-		obj.QuickSort(a);
+		obj.QuickSort(a,0,a.length-1);
 		obj.print_array(a);
 	}
 }
